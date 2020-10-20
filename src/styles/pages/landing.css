@@ -82,3 +82,32 @@
     background: #96FEFF;
 }
 
+@media (min-width: 375px) {
+    .content-wrapper .enter-app {
+        
+        top: 140vw;
+        left: 30vw;
+        width: 20vw;
+        height: 16vw;
+    
+    
+        transition: background-color 0.2s;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .content-wrapper .enter-app {
+     
+        top: 80vw;
+        left: 30vw;
+        width: 15vw;
+        height: 12vw;
+        border-radius: 5vw;
+    
+    
+        transition: background-color 0.2s;
+    }
+}
+
+

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FiPlus, FiArrowRight, FiArrowLeft } from 'react-icons/fi';
+import { FiArrowRight, FiArrowLeft } from 'react-icons/fi';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 // import { useHistory } from 'react-router-dom';
 
@@ -79,9 +79,9 @@ function MapOngs() {
         })}
       </Map>
 
-      <Link to="/ong/create" className="create-ong">
+<!--       <Link to="/ong/create" className="create-ong">
         <FiPlus size={32} color="#FFF" />
-      </Link>
+      </Link> -->
     </div>
   )
 }

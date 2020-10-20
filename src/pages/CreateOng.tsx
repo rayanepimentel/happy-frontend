@@ -100,7 +100,7 @@ export default function CreateOng() {
                 url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"
               />
 
-              {position.latitude != 0 && (
+              {position.latitude !== 0 && (
                 <Marker
                   interactive={false}
                   icon={mapIcon}

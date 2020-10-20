@@ -52,8 +52,7 @@ export default function Ong() {
 
       <main>
         <div className="ong-details">
-         <!-- <img src={ong.images[activeImageIndex].url} alt={ong.name} />!-->
-
+        
           <div className="images">
             {ong.images.map((image, index) => {
               return (

@@ -52,7 +52,7 @@ export default function Ong() {
 
       <main>
         <div className="ong-details">
-          <img src={ong.images[activeImageIndex].url} alt={ong.name} />
+<!--           <img src={ong.images[activeImageIndex].url} alt={ong.name} />
 
           <div className="images">
             {ong.images.map((image, index) => {
@@ -69,7 +69,7 @@ export default function Ong() {
                 </button>
               );
             })}
-          </div>
+          </div> -->
 
           <div className="ong-details-content">
             <h1>{ong.name}</h1>

@@ -22,7 +22,7 @@ interface Ong {
 }
 
 function MapOngs() {
-  const { goBack } = useHistory();
+  //const { goBack } = useHistory();
   const [ongs, setOngs] = useState<Ong[]>([]);
 
   useEffect(() => {

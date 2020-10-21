@@ -79,9 +79,6 @@ function MapOngs() {
         })}
       </Map>
 
-<!--       <Link to="/ong/create" className="create-ong">
-        <FiPlus size={32} color="#FFF" />
-      </Link> -->
     </div>
   )
 }
